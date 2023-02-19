@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 
-public class Cat {
+public class Cat111 {
     private String name;
     private int age;
 
-    public Cat() {
+    public Cat111() {
     }
 
-    public Cat(String name, int age) {
+    public Cat111(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -27,7 +27,7 @@ public class Cat {
     public void setAge(int age) {
         this.age = age;
     }
-    public void nameMethod(ArrayList<Cat> cats, String name){
+    public void nameMethod(ArrayList<Cat111> cats, String name){
         for (int i = 0; i < cats.size(); i++) {
             if (cats.get(i).getName().equals(name)){
                 System.out.println(cats.get(i));
@@ -35,8 +35,8 @@ public class Cat {
         }
 
     }
-    public void ageMethod(ArrayList<Cat> arrayList, int age){
-        for (Cat cat: arrayList) {
+    public void ageMethod(ArrayList<Cat111> arrayList, int age){
+        for (Cat111 cat: arrayList) {
             if (cat.getAge() == age){
                 System.out.println(cat);
             }
